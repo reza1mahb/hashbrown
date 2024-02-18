@@ -2,7 +2,7 @@ language: rust
 rust: nightly
 
 matrix:
-  fast_finish: true
+  fast_finish: false
   include:
     - name: "miri"
       env: TARGET=x86_64-unknown-linux-gnu
